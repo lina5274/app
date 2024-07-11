@@ -45,7 +45,7 @@ from flask_sqlalchemy import SQLAlchemy
 from passlib.hash import pbkdf2_sha256
 
 
-    # Cоздаем экземпляр Flask приложения
+     # Cоздаем экземпляр Flask приложения
 app = Flask(__name__)
 
 #Настройки базы данных SQLite
